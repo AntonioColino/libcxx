@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{e51cfb36-c769-4ce5-a8c1-7f1085966970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c8265e8b-cd88-4f82-a193-51f82bd6e207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\algorithm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\any.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bind.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\charconv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chrono.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\condition_variable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\condition_variable_destructor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exception.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functional.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\future.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ios.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iostream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support\win32\locale_win32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support\win32\support.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support\win32\thread_win32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mutex_destructor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\new.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\optional.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\regex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shared_mutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdexcept.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strstream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system_error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\typeinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\valarray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\variant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experimental\memory_resource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libcxx.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\support\runtime\exception_fallback.ipp" />
+    <ClInclude Include="src\support\runtime\exception_glibcxx.ipp" />
+    <ClInclude Include="src\support\runtime\exception_libcxxabi.ipp" />
+    <ClInclude Include="src\support\runtime\exception_libcxxrt.ipp" />
+    <ClInclude Include="src\support\runtime\exception_msvc.ipp" />
+    <ClInclude Include="src\support\runtime\exception_pointer_cxxabi.ipp" />
+    <ClInclude Include="src\support\runtime\exception_pointer_glibcxx.ipp" />
+    <ClInclude Include="src\support\runtime\exception_pointer_msvc.ipp" />
+    <ClInclude Include="src\support\runtime\exception_pointer_unimplemented.ipp" />
+    <ClInclude Include="src\support\runtime\new_handler_fallback.ipp" />
+    <ClInclude Include="src\support\runtime\stdexcept_default.ipp" />
+    <ClInclude Include="src\support\runtime\stdexcept_vcruntime.ipp" />
+    <ClInclude Include="src\include\apple_availability.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\atomic_support.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\config_elast.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\refstring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__bsd_locale_defaults.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__bsd_locale_fallbacks.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\errno.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fenv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\float.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inttypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\limits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\locale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\setjmp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdbool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stddef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgmath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wchar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wctype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\android\locale_bionic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\fuchsia\xlocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\ibm\limits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\ibm\locale_mgmt_aix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\ibm\support.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\ibm\xlocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\musl\xlocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\newlib\xlocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\solaris\floatingpoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\solaris\wchar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\solaris\xlocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\win32\limits_msvc_win32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\win32\locale_win32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\xlocale\__nop_locale_mgmt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\xlocale\__posix_l_fallback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\support\xlocale\__strtonum_fallback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_builtin_vars.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_cmath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_complex_builtins.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_device_functions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_intrinsics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_libdevice_declares.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_math_forward_declares.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__clang_cuda_runtime_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__stddef_max_align_t.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__wmmintrin_aes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\__wmmintrin_pclmul.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adxintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\altivec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ammintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm_acle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm_cmse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm_fp16.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm_mve.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm_neon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arm64intr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\armintr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx2intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512bf16intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512bitalgintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512bwintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512cdintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512dqintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512erintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512fintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512ifmaintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512ifmavlintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512pfintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vbmi2intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vbmiintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vbmivlintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlbf16intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlbitalgintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlbwintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlcdintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vldqintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlvbmi2intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlvnniintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vlvp2intersectintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vnniintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vp2intersectintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vpopcntdqintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avx512vpopcntdqvlintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\avxintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bmi2intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bmiintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cetintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cldemoteintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clflushoptintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clwbintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clzerointrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cpuid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\htmxlintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enqcmdintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\f16cintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fma4intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmaintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fxsrintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfniintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\htmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ia32intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\immintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\invpcidintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iso646.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lwpintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lzcntintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mm_malloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mm3dnow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\movdirintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\msa.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mwaitxintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\omp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opencl-c.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opencl-c-base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pconfigintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pkuintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pmmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\popcntintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prfchwintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ptwriteintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rdseedintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\s390intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sgxintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdalign.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdarg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdatomic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdnoreturn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tmmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unwind.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vaesintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\varargs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vecintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vpclmulqdqintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\waitpkgintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wbnoinvdintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wmmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86intrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xmmintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xopintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xsavecintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xsaveintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xsaveoptintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xsavesintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xtestintrin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vadefs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\experimental\__config">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\__memory">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\algorithm">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\coroutine">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\deque">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\filesystem">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\forward_list">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\functional">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\iterator">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\list">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\map">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\memory_resource">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\propagate_const">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\regex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\set">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\simd">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\string">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\type_traits">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\unordered_map">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\unordered_set">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\utility">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\experimental\vector">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ext\__hash">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ext\hash_map">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ext\hash_set">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__bit_reference">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__config">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__config_site.in">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__debug">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__errc">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__functional_03">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__functional_base">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__functional_base_03">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__hash_table">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__libcpp_version">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__locale">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__mutex_base">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__node_handle">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__nullptr">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__split_buffer">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__sso_allocator">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__std_stream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__string">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__threading_support">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__tree">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__tuple">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\__undef_macros">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\algorithm">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\any">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\array">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\atomic">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\bit">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\bitset">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cassert">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ccomplex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cctype">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cerrno">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cfenv">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cfloat">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\charconv">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\chrono">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cinttypes">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ciso646">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\climits">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\clocale">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cmath">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\codecvt">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\compare">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\complex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\condition_variable">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\csetjmp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\csignal">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstdarg">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstdbool">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstddef">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstdint">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstdio">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstdlib">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cstring">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ctgmath">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ctime">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cwchar">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\cwctype">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\deque">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\exception">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\filesystem">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\forward_list">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\fstream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\functional">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\future">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\initializer_list">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\iomanip">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ios">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\iosfwd">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\iostream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\istream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\iterator">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\limits">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\list">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\locale">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\map">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\memory">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\module.modulemap">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\mutex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\new">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\numeric">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\optional">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ostream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\queue">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\random">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\ratio">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\regex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\scoped_allocator">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\set">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\shared_mutex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\span">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\sstream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\stack">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\stdexcept">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\streambuf">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\string">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\string_view">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\strstream">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\system_error">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\thread">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\tuple">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\type_traits">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\typeindex">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\typeinfo">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\unordered_map">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\unordered_set">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\utility">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\valarray">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\variant">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\vector">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\version">
+      <Filter>include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="include\CMakeLists.txt">
+      <Filter>include</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
